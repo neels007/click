@@ -5,9 +5,9 @@ function change(){
          window.open('https://youtu.be/oGG-lBdCZtE')
          count++;
 
-    },5000);
+    },3000);
 
-    setTimeout(() => { clearInterval(timerId); alert('stop'); }, 15000);
+    setTimeout(() => { clearInterval(timerId); alert('stop'); }, 500000);
 
     
 console.log(count);
