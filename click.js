@@ -7,7 +7,7 @@ function change(){
 
     },4000);
 
-    setTimeout(() => { clearInterval(timerId); alert('stop'); }, 80000);
+    setTimeout(() => { clearInterval(timerId); alert('stop'); }, 160000);
 
     
 console.log(count);
